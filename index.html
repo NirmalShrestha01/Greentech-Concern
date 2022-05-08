@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon-two.png" type="image/png">
     <!-----ANIMATE CSS CDN LINK-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--OUR CSS-->
     <link rel="stylesheet" href="css/main.css">
     <title>Greentech Concern- Home</title>
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="banner_description">
-                <div class="banner-description-left">
+                <div class="banner-description-left " data-aos="fade-right" data-aos-duration="1000">
                     <h1>
                         Information Technology And <br>
                         Cyber Security Solutions
@@ -53,7 +53,7 @@
                     </p>
                     <button><a href="#">Contact Us</a></button>
                 </div>
-                <div class="banner-description-right">
+                <div class="banner-description-right" data-aos="fade-left" data-aos-duration="1000">
                     <img src="images/banner-hero-image.png" alt="banner-hero-image">
                 </div>
             </div>
@@ -65,10 +65,10 @@
     <!--MAXIMIZE-SECUROTY SECTION START-->
     <section class="maximize-section">
         <div class="container maximize-section-container">
-            <div class="maximize-section-left">
+            <div class="maximize-section-left" data-aos="fade-right" data-aos-duration="1000">
                 <img src="images/maximize-section-left-image.png" alt="maximize-section-image">
             </div>
-            <div class="maximize-section-right">
+            <div class="maximize-section-right" data-aos="fade-left" data-aos-duration="1000">
                 <h2>Maximize Your Security</h2>
                 <p>Day after day, security breaches in high profile businesses all over the world are hitting the news.
                     These attacks
@@ -155,7 +155,7 @@
     <section class="protect">
         <h2 class="title">We Know How To Protect You</h2>
 
-        <div class="container protect_container">
+        <div class="container protect_container" data-aos="fade-up" data-aos-duration="1000">
             <div class="counters">
                 <div class="container">
                     <div class="counter_box">
@@ -373,6 +373,11 @@
     <!--Iconsio JS CDN LINK-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--ANIMATE CSS JS LINK-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!------OUR JS--------->
     <script src="main.js"></script>
