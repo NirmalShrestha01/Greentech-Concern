@@ -126,6 +126,20 @@ button a {
   gap: 50px;
 }
 
+.nav .nav_links ul li::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  background-color: #019267;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav .nav_links ul li:hover::after {
+  width: 100%;
+}
+
 .nav .nav_links ul a {
   color: #fff;
   font-weight: bold;
@@ -555,6 +569,46 @@ button a {
   .banner_description .banner-description-right img {
     width: 430px;
     margin-left: -60px;
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 1450px) {
+  .banner_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+  }
+  .banner_description .banner-description-left {
+    color: #fff;
+  }
+  .banner_description .banner-description-left h1 {
+    font-size: 40px;
+    margin-top: 110px;
+  }
+  .banner_description .banner-description-left p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .banner_description .banner-description-left button {
+    background-color: #019267;
+    padding: 12px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+  }
+  .banner_description .banner-description-left button a {
+    color: #fff;
+    font-size: 16px;
+  }
+  .banner_description .banner-description-right img {
+    width: 500px;
+    margin-left: -40px;
     margin-top: 70px;
   }
 }
@@ -1591,7 +1645,7 @@ button a {
 
 .banner-about .title h2 {
   font-size: 50px;
-  margin-top: -30px;
+  margin-top: 70px;
 }
 
 .banner-about .title::after {

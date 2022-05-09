@@ -117,22 +117,22 @@
                     </div>
                 </div>
                 <div class="contact-right">
-                    <form class="my-form">
+                    <form action="form-handler.php" method="post" class="my-form">
                         <ul>
                             <li>
                                 <div class="form_box">
-                                    <input type="text" placeholder="Your name" required>
-                                    <input type="tel" placeholder="Phone number" required>
+                                    <input type="text" name="name" placeholder="Your name" required>
+                                    <input type="tel" name="phonenumber" placeholder="Phone number" required>
                                 </div>
                             </li>
                             <li>
                                 <div class="form_box">
-                                    <input type="email" placeholder="Your email" required>
-                                    <input type="text" placeholder="Subject">
+                                    <input type="email" name="email" placeholder="Your email" required>
+                                    <input type="text" name="subject" placeholder="Subject" required>
                                 </div>
                             </li>
                             <li>
-                                <textarea placeholder="Message"></textarea>
+                                <textarea name="message" placeholder="Message" required></textarea>
                             </li>
                             <button><a href="#">SEND MESSAGE</a></button>
                         </ul>
@@ -148,14 +148,17 @@
         <section class="footer">
             <div class="container footer_container">
                 <div class="footer_links footer_row_one">
-                    <img src="images/main-logo.png" alt="Greentechlogo">
+                    <a href="index.html"><img src="images/main-logo.png" alt="Greentechlogo"></a>
                     <p>We are IT Solution and Security service provider <br>
                         company help to IT align with client business.
                     </p>
                     <ul>
-                        <li><a href="#"><img src="images/facebook-logo-footer.png" alt="facebookLogo"></a></li>
-                        <li><a href="#"><img src="images/twitter-logo-footer.png" alt="twitterLogo"></a></li>
-                        <li><a href="#"><img src="images/linkedin-logo-footer.png" alt="linkedinLogo"></a></li>
+                        <li><a href="https://www.facebook.com/greentechconcern/" target="_blank"><img
+                                    src="images/facebook-logo-footer.png" alt="facebookLogo"></a></li>
+                        <li><a href="https://twitter.com/gtcnepal" target="_blank"><img
+                                    src="images/twitter-logo-footer.png" alt="twitterLogo"></a></li>
+                        <li><a href="https://www.linkedin.com/company/green-tech-concern" target="_blank"><img
+                                    src="images/linkedin-logo-footer.png" alt="linkedinLogo"></a></li>
                     </ul>
                 </div>
                 <div class="footer_links footer_row_two">
@@ -179,17 +182,17 @@
                 </div>
                 <div class="footer_links footer_row_three">
                     <h5>OUR SERVICES</h5>
-                    <p>Data Security</p>
-                    <p>IT Consulting</p>
-                    <p>Threat Intelligence</p>
-                    <p>Web Devlopment</p>
+                    <p><a href="service.html">Data Security</a> </p>
+                    <p><a href="service.html">IT Consulting</a> </p>
+                    <p><a href="service.html">Threat Intelligence</a> </p>
+                    <p><a href="service.html">Web Devlopment</a> </p>
                 </div>
                 <div class="footer_links footer_row_four">
                     <h5>QUICK LINKS</h5>
-                    <p><a href="#">Home</a></p>
-                    <p><a href="#">About</a></p>
-                    <p><a href="#">Services</a></p>
-                    <p><a href="#">Contact</a></p>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="service.html">Services</a></p>
+                    <p><a href="contact.html">Contact</a></p>
                 </div>
             </div>
         </section>

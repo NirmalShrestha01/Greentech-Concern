@@ -18,9 +18,23 @@
         margin: 60px 190px 0 0;
         display: flex;
         gap: 50px;
+
+        li::after {
+            content: '';
+            width: 0%;
+            height: 3px;
+            background-color: $primary-color;
+            display: block;
+            margin: auto;
+            transition: 0.5s; 
+        }
+        li:hover::after {
+                width: 100%;
+        }
         a {
             color: #fff;
             font-weight: bold;
+
         }
     }
 }
@@ -529,4 +543,52 @@
 
 
 
+}
+
+@media (min-width: 1450px) {
+    .banner_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+
+    .banner-description-left {
+        color: #fff;
+        h1 {
+            font-size: 40px; 
+            margin-top: 110px;
+
+        }
+        p {
+            font-size: 14px;
+            margin-top: 10px;
+            
+            
+        }
+        button {
+            background-color: #019267;
+            padding: 12px 20px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-top: 50px;
+            outline: none;
+            border: none;
+
+            a {
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .banner-description-right  {    
+        img {
+            width: 500px;
+            margin-left: -40px;
+            margin-top: 70px;
+        }
+    }
+}
 }
