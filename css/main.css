@@ -1371,10 +1371,7 @@ button a {
 .my-form button {
   margin: 20px;
   padding: 15px 20px;
-}
-
-.my-form button a {
-  font-size: 15px;
+  color: #fff;
 }
 
 .form_box input {
