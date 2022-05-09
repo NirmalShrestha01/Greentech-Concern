@@ -180,26 +180,24 @@
                     </div>
                 </div>
                 <div class="contact-right">
-
-                    <form class="my-form">
+                    <form action="form-handler.php" method="post" class="my-form">
                         <ul>
                             <li>
                                 <div class="form_box">
-                                    <input type="text" placeholder="Your name" required>
-                                    <input type="tel" placeholder="Phone number" required>
+                                    <input type="text" name="name" placeholder="Your name" required>
+                                    <input type="tel" name="phonenumber" placeholder="Phone number" required>
                                 </div>
                             </li>
                             <li>
                                 <div class="form_box">
-                                    <input type="email" placeholder="Your email" required>
-                                    <input type="text" placeholder="Subject">
+                                    <input type="email" name="email" placeholder="Your email" required>
+                                    <input type="text" name="subject" placeholder="Subject" required>
                                 </div>
                             </li>
                             <li>
-                                <textarea placeholder="Message"></textarea>
+                                <textarea name="message" placeholder="Message" required></textarea>
                             </li>
-
-                            <button><a href="#">SEND MESSAGE</a></button>
+                            <button type="submit">SEND MESSAGE</button>
                         </ul>
                     </form>
                 </div>
