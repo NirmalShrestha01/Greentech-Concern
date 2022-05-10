@@ -147,7 +147,7 @@
             color: #fff;
             h1 {
                 font-size: 30px;
-                margin-top: 80px;
+                margin-top: 0px;
                 margin-left: 41px;
                 text-align: center;
 
@@ -250,7 +250,7 @@
     }
 }
 
-@media (min-width: 361px)  and (max-width: 390px){
+@media (min-width: 361px)  and (max-width: 395px){
     .banner {
         position: relative;
         overflow-x: hidden;
@@ -327,7 +327,7 @@
 }
 
 
-@media (min-width: 391px)  and (max-width: 425px){
+@media (min-width: 400px)  and (max-width: 430px){
     .banner {
         position: relative;
         overflow-x: hidden;
@@ -404,7 +404,7 @@
 }
 
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
     .banner {
         position: relative;
         overflow-x: hidden;
@@ -454,7 +454,7 @@
             color: #fff;
             h1 {
                 font-size: 45px;
-                margin-top: 173px;
+                margin-top: 50px;
                 margin-left: 54px;
                 text-align: center;
 
@@ -500,7 +500,7 @@
     justify-content: center;
     align-items: center;
     gap: 100px;
-    margin-top: 75px;
+    margin-top: -30px;
 
     .banner-description-left {
         color: #fff;
@@ -543,52 +543,4 @@
 
 
 
-}
-
-@media (min-width: 1450px) {
-    .banner_description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    margin-top: 100px;
-
-    .banner-description-left {
-        color: #fff;
-        h1 {
-            font-size: 40px; 
-            margin-top: 110px;
-
-        }
-        p {
-            font-size: 14px;
-            margin-top: 10px;
-            
-            
-        }
-        button {
-            background-color: #019267;
-            padding: 12px 20px;
-            font-family: 'Poppins', sans-serif;
-            font-weight: bold;
-            border-radius: 10px;
-            margin-top: 50px;
-            outline: none;
-            border: none;
-
-            a {
-                color: #fff;
-                font-size: 16px;
-            }
-        }
-    }
-
-    .banner-description-right  {    
-        img {
-            width: 500px;
-            margin-left: -40px;
-            margin-top: 70px;
-        }
-    }
-}
 }
