@@ -19,6 +19,10 @@
 
 }
 
+.footer_row_one .footer-logo img {
+    width: 140px;
+    margin-top: 35px;
+}
 .footer_row_one ul {
     display: flex;
     margin-top: 10px;
@@ -94,7 +98,7 @@
 
 
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
 
     .footer_container {
         display: grid;
@@ -137,7 +141,7 @@
 
 }
 
-@media (min-width: 426px) and (max-width:768px) {
+@media (min-width: 431px) and (max-width:768px) {
 
     .footer_container {
         display: grid;

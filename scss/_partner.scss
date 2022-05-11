@@ -8,10 +8,14 @@
 
 .partner_container {
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(5 , 1fr);
     gap: 20px;
     align-items: center;
     height: 200px;
+
+    img {
+        width: 200px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -36,10 +40,10 @@
 ------------PARTNER MEDIA QUERIES START------------
 -------------------------------------------------*/
 
-@media (min-width: 321px) and (max-width: 425px){
+@media (min-width: 321px) and (max-width: 430px){
 
     .partner {
-        height: 230px;
+        height: 265px;
         margin-top: 50px;
 
 
@@ -57,7 +61,28 @@
     }
 }
 
-@media (min-width: 426px) and (max-width: 1024px){
+@media (min-width: 431px) and (max-width: 768px){
+
+    .partner {
+        height: 265px;
+        margin-top: 50px;
+
+
+    .partner_container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 5px;
+
+            img {
+                width: 115px;
+                margin-top: 22px;
+                
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
 
     .partner {
         height: 230px;
@@ -66,7 +91,7 @@
 
     .partner_container {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             gap: 5px;
 
             img {

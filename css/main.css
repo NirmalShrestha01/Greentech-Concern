@@ -117,7 +117,8 @@ button a {
 }
 
 .nav img {
-  margin: 12px 0 0 150px;
+  margin: 27px 0 0 150px;
+  width: 140px;
 }
 
 .nav .nav_links ul {
@@ -201,7 +202,7 @@ button a {
     overflow-x: hidden;
   }
   .nav img {
-    margin: 12px 0 0 20px;
+    margin: 25px 0 0 20px;
     width: 100px;
   }
   .nav .nav_links {
@@ -242,7 +243,7 @@ button a {
   }
   .banner_description .banner-description-left h1 {
     font-size: 30px;
-    margin-top: 80px;
+    margin-top: 0px;
     margin-left: 41px;
     text-align: center;
   }
@@ -266,7 +267,7 @@ button a {
     overflow-x: hidden;
   }
   .nav img {
-    margin: 12px 0 0 20px;
+    margin: 25px 0 0 20px;
     width: 100px;
   }
   .nav .nav_links {
@@ -326,13 +327,13 @@ button a {
   }
 }
 
-@media (min-width: 361px) and (max-width: 390px) {
+@media (min-width: 361px) and (max-width: 395px) {
   .banner {
     position: relative;
     overflow-x: hidden;
   }
   .nav img {
-    margin: 12px 0 0 20px;
+    margin: 25px 0 0 20px;
     width: 100px;
   }
   .nav .nav_links {
@@ -392,13 +393,13 @@ button a {
   }
 }
 
-@media (min-width: 391px) and (max-width: 425px) {
+@media (min-width: 400px) and (max-width: 430px) {
   .banner {
     position: relative;
     overflow-x: hidden;
   }
   .nav img {
-    margin: 12px 0 0 20px;
+    margin: 25px 0 0 20px;
     width: 100px;
   }
   .nav .nav_links {
@@ -458,13 +459,13 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .banner {
     position: relative;
     overflow-x: hidden;
   }
   .nav img {
-    margin: 12px 0 0 50px;
+    margin: 25px 0 0 50px;
     width: 100px;
   }
   .nav .nav_links {
@@ -505,7 +506,7 @@ button a {
   }
   .banner_description .banner-description-left h1 {
     font-size: 45px;
-    margin-top: 173px;
+    margin-top: 50px;
     margin-left: 54px;
     text-align: center;
   }
@@ -539,7 +540,7 @@ button a {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    margin-top: 75px;
+    margin-top: -30px;
   }
   .banner_description .banner-description-left {
     color: #fff;
@@ -569,46 +570,6 @@ button a {
   .banner_description .banner-description-right img {
     width: 430px;
     margin-left: -60px;
-    margin-top: 70px;
-  }
-}
-
-@media (min-width: 1450px) {
-  .banner_description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    margin-top: 100px;
-  }
-  .banner_description .banner-description-left {
-    color: #fff;
-  }
-  .banner_description .banner-description-left h1 {
-    font-size: 40px;
-    margin-top: 110px;
-  }
-  .banner_description .banner-description-left p {
-    font-size: 14px;
-    margin-top: 10px;
-  }
-  .banner_description .banner-description-left button {
-    background-color: #019267;
-    padding: 12px 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    border-radius: 10px;
-    margin-top: 50px;
-    outline: none;
-    border: none;
-  }
-  .banner_description .banner-description-left button a {
-    color: #fff;
-    font-size: 16px;
-  }
-  .banner_description .banner-description-right img {
-    width: 500px;
-    margin-left: -40px;
     margin-top: 70px;
   }
 }
@@ -649,7 +610,7 @@ button a {
 /*----------------------------------------------
 ------------MAXIMIZE MEDIA QUERIES START------------
 -------------------------------------------------*/
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .maximize-section {
     height: 675px;
   }
@@ -675,7 +636,7 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .maximize-section {
     height: 500px;
   }
@@ -830,7 +791,7 @@ button a {
   }
 }
 
-@media (min-width: 321px) and (max-width: 425px) {
+@media (min-width: 321px) and (max-width: 430px) {
   .our_services {
     height: 748px;
   }
@@ -890,7 +851,7 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .our_services {
     height: 450px;
   }
@@ -1027,7 +988,7 @@ button a {
 /*--------------------------------------
 ----------MEDIA QUERIES STARTED---------
 ---------------------------------------*/
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 430px) {
   .protect {
     height: 536px;
   }
@@ -1062,7 +1023,7 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .protect {
     height: 536px;
   }
@@ -1174,7 +1135,7 @@ button a {
   }
 }
 
-@media (min-width: 321px) and (max-width: 425px) {
+@media (min-width: 321px) and (max-width: 430px) {
   .why_choose_us .why_choose_us_left img {
     display: none;
   }
@@ -1206,7 +1167,7 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .why_choose_us .why_choose_us_left img {
     display: none;
   }
@@ -1276,10 +1237,14 @@ button a {
 
 .partner_container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   align-items: center;
   height: 200px;
+}
+
+.partner_container img {
+  width: 200px;
 }
 
 @media (max-width: 320px) {
@@ -1300,9 +1265,9 @@ button a {
 /*----------------------------------------------
 ------------PARTNER MEDIA QUERIES START------------
 -------------------------------------------------*/
-@media (min-width: 321px) and (max-width: 425px) {
+@media (min-width: 321px) and (max-width: 430px) {
   .partner {
-    height: 230px;
+    height: 265px;
     margin-top: 50px;
   }
   .partner .partner_container {
@@ -1316,14 +1281,30 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 1024px) {
+@media (min-width: 431px) and (max-width: 768px) {
+  .partner {
+    height: 265px;
+    margin-top: 50px;
+  }
+  .partner .partner_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+  .partner .partner_container img {
+    width: 115px;
+    margin-top: 22px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
   .partner {
     height: 230px;
     margin-top: 50px;
   }
   .partner .partner_container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 5px;
   }
   .partner .partner_container img {
@@ -1404,7 +1385,7 @@ button a {
 /*----------------------------------------------
 ------------CONTACT MEDIA QUERIES START------------
 -------------------------------------------------*/
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .contact_container {
     height: 876px;
     margin-top: 50px;
@@ -1443,7 +1424,7 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .contact-left {
     margin-left: -127px;
   }
@@ -1483,6 +1464,11 @@ button a {
   font-size: 12px;
   font-weight: 100;
   color: #fff;
+}
+
+.footer_row_one .footer-logo img {
+  width: 140px;
+  margin-top: 35px;
 }
 
 .footer_row_one ul {
@@ -1553,7 +1539,7 @@ button a {
 /*----------------------------------------------
 ------------FOOTER MEDIA QUERIES START------------
 -------------------------------------------------*/
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .footer_container {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
@@ -1585,7 +1571,7 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .footer_container {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -1851,7 +1837,7 @@ button a {
   }
 }
 
-@media (min-width: 361px) and (max-width: 390px) {
+@media (min-width: 361px) and (max-width: 395px) {
   .banner-about {
     overflow-x: hidden;
   }
@@ -1911,7 +1897,7 @@ button a {
   }
 }
 
-@media (min-width: 391px) and (max-width: 425px) {
+@media (min-width: 396px) and (max-width: 430px) {
   .banner-about {
     position: relative;
     overflow-x: hidden;
@@ -1972,7 +1958,7 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .banner-about {
     position: relative;
     overflow-x: hidden;
@@ -2303,7 +2289,7 @@ button a {
   }
 }
 
-@media (min-width: 361px) and (max-width: 390px) {
+@media (min-width: 361px) and (max-width: 395px) {
   .service_description {
     min-height: 1530px;
   }
@@ -2366,7 +2352,7 @@ button a {
   }
 }
 
-@media (min-width: 391px) and (max-width: 425px) {
+@media (min-width: 396px) and (max-width: 430px) {
   .service_description {
     min-height: 1530px;
   }
@@ -2429,7 +2415,7 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .service_description {
     height: 1010px;
   }
@@ -2562,7 +2548,7 @@ button a {
   }
 }
 
-@media (min-width: 361px) and (max-width: 390px) {
+@media (min-width: 361px) and (max-width: 395px) {
   .contact_description {
     height: 710px;
   }
@@ -2583,7 +2569,7 @@ button a {
   }
 }
 
-@media (min-width: 391px) and (max-width: 425px) {
+@media (min-width: 396px) and (max-width: 430px) {
   .contact_description {
     height: 710px;
   }
@@ -2604,7 +2590,7 @@ button a {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 431px) and (max-width: 768px) {
   .contact_description {
     height: 265px;
   }
