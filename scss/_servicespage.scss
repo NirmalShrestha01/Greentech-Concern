@@ -5,7 +5,7 @@
     height: 1520px;
     background-position: center;
     background-size: cover;
-    padding-top: 50px;
+    padding-top:40px;
 }
 
 .service_description_one {
@@ -14,11 +14,12 @@
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
     border-radius: 10px; 
     height: 310px;
-    margin-top: 40px;
+    margin-top:30px;
 }
 
 .service_description_datasecurity {
     grid-template-columns: 2fr 1fr ;
+   
 
     .service_description_one_right img {
         width: 389px;
@@ -41,6 +42,8 @@
 
 .service_description_itconsulting {
     grid-template-columns: 1fr 2fr ;
+    
+
 
     .service_description_one_left img {
         width: 412px;

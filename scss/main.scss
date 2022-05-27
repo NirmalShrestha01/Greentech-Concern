@@ -10,6 +10,7 @@ $primary-color: #019267;
 $button-color: #019267;
 $secondary-color : #33A384;
 $text-color : #00132C;
+$hover-color : #6BCB77;
 
 .container{
     max-width: 1200px;
@@ -27,8 +28,25 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #00132C;
     overflow-x: hidden;
+    position: relative;
     
 }
+
+//For Navbar Sticky CSS start
+.nav.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3A3845;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 10000;
+    
+}
+
+//For Navbar Sticky CSS End.
 
 .wrapper {
      overflow-x: hidden;
@@ -102,11 +120,37 @@ button {
     margin-top: 40px;
     outline: none;
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: $hover-color;
+    }
 
     a {
         color: #fff;
     }
 }
+
+
+
+.icon-details a {
+    color: #fff;
+
+    &:hover {
+        color: $hover-color;
+    }
+}
+
+.contact_description a {
+    color: #fff;
+
+    &:hover {
+        color: $hover-color;
+    }
+}
+
+
 
 @import 'banner';
 @import 'maximize';

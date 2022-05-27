@@ -32,6 +32,10 @@
     img {
         width: 25px;
         margin-top: 10px;
+
+        &:hover {
+            transform: translateY(2px);
+        }
     }
 } 
 
@@ -43,6 +47,10 @@
     margin-top: 35px;
     margin-left: 30px;
     line-height: 3;
+
+    a:hover {
+        color: $hover-color;
+    }
 
 }
 
@@ -114,7 +122,8 @@
         }
 
         .footer_row_two {
-            margin-left: 15px;   
+            margin-left: 15px; 
+         
         }
 
         .footer_row_three {

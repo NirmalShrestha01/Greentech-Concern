@@ -38,3 +38,20 @@ function hideMenu() {
     navLinks.style.right = '-200px';
 }
 
+
+
+
+
+var nav_top = document.getElementById("nav_top");
+var menu = document.getElementById("menu");
+
+window.onscroll = function() {
+
+	if(window.pageYOffset >= menu.offsetTop ) {
+		nav_top.classList.add("sticky");
+	}
+	else {
+		nav_top.classList.remove("sticky");
+
+	}
+}

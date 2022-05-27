@@ -71,6 +71,10 @@
             outline: none;
             border: none;
 
+            &:hover {
+                background-color: $hover-color;
+            }
+
             a {
                 color: #fff;
                 font-size: 16px;
