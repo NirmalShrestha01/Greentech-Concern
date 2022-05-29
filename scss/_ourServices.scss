@@ -1,321 +1,298 @@
 .our_services {
-    height: 650px;
+  height: 650px;
 }
 
 .our-services-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
 }
 
-
 .our-services-left-details {
-    display: flex;
-    gap: 40px;
-    color: #fff;
-    margin-top: 30px;
-    margin-left: 80px;
+  display: flex;
+  gap: 40px;
+  color: #fff;
+  margin-top: 30px;
+  // margin-left: 80px;
 
-    .box {
-        background-color: $primary-color;
-        border-radius: 10px;
-        
+  .box {
+    background-color: $primary-color;
+    border-radius: 10px;
 
-        img {
-            padding: 10px 15px;
-            
-        }
+    img {
+      padding: 10px 15px;
     }
-    .icon-details {
-        margin-top: 10px;
+  }
+
+  .domain_hosting_box {
+    img {
+      width: 90px;
     }
+  }
+  .icon-details {
+    margin-top: 10px;
+
+    p {
+      line-height: 1.4;
+    }
+  }
 }
 
 .our-services-right {
+  margin-top: 30px;
+  margin-left: 50px;
+
+  p {
+    width: 500px;
+    line-height: 1.5;
     margin-top: 20px;
-    margin-left: 50px;
-
-    p {
-        width: 500px;
-        line-height: 1.5;
-        margin-top: 20px;
-    }
-    button {
-        margin-top: 70px;
-        padding: 10px;
-        font-size: 15px;
-    }
+  }
+  button {
+    margin-top: 70px;
+    padding: 10px;
+    font-size: 15px;
+  }
 }
-
-
-
 
 /*--------------------------------------
 ----------MEDIA QUERIES STARTED---------
 ---------------------------------------*/
 
-
 @media (max-width: 320px) {
+  .our_services {
+    height: 748px;
 
-    .our_services {
-        height: 748px;
+    .title {
+      font-size: 22px;
 
-        .title {
-            font-size: 22px;
-
-            &::after {
-                width: 200px;
-            }
-        }
-    
-        .our-services-container {
-            display: grid;
-            grid-template-rows: 1fr 1fr;
-            grid-auto-flow: column;      
-        }
-
-        .our-services-left-details {     
-            gap: 20px;       
-            margin-top: 10px;
-            margin-left: 5px;
-        }
-
-        .our-services-left-details {
-            gap: 20px;
-            margin-top: 10px;
-            margin-left: 5px;
-
-            .box {
-                    width: 67px;
-                    height: 68px;
-                img {
-                    padding: 10px 15px;
-                    width: 70px;
-                
-                }
-            }
-            .icon-details {
-                margin-top: 0px;
-
-                h5 {
-                    font-size: 16px;
-                }
-
-                small {
-                    font-size: 8px;
-                }
-            }
-        }
-
-        
-        .our-services-right {
-            margin-top: 10px;
-            margin-left: 10px;
-
-            h1 {
-                font-size: 20px;
-                margin-top: 20px;
-            }
-
-            p {
-                width: 275px;
-                
-                
-                font-size: 10px;
-            }
-            button {
-                margin-top: 40px;
-                
-            }
-        }
+      &::after {
+        width: 200px;
+      }
     }
 
-} 
-
-@media (min-width: 321px)  and (max-width: 430px){
-
-    .our_services {
-        height: 748px;
-
-        .title {
-            font-size: 22px;
-
-            &::after {
-                width: 200px;
-            }
-        }
-    
-        .our-services-container {
-            display: grid;
-            grid-template-rows: 1fr 1fr;
-            grid-auto-flow: column;  
-            margin-left: 26px;    
-        }
-
-        .our-services-left-details {     
-            gap: 20px;       
-            margin-top: 10px;
-            margin-left: 5px;
-        }
-
-        .our-services-left-details {
-            gap: 20px;
-            margin-top: 10px;
-            margin-left: 5px;
-
-            .box {
-                    width: 67px;
-                    height: 68px;
-                img {
-                    padding: 10px 15px;
-                    width: 70px;
-                
-                }
-            }
-            .icon-details {
-                margin-top: 0px;
-
-                h5 {
-                    font-size: 16px;
-                }
-
-                small {
-                    font-size: 8px;
-                }
-            }
-        }
-
-        
-        .our-services-right {
-            margin-top: 10px;
-            margin-left: 10px;
-
-            h1 {
-                font-size: 20px;
-                margin-top: 20px;
-            }
-
-            p {
-                width: 275px;
-                
-                
-                font-size: 10px;
-            }
-            button {
-                margin-top: 40px;
-                
-            }
-        }
+    .our-services-container {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-auto-flow: column;
     }
 
+    .our-services-left-details {
+      gap: 20px;
+      margin-top: 10px;
+      margin-left: 5px;
+    }
 
+    .our-services-left-details {
+      gap: 20px;
+      margin-top: 10px;
+      margin-left: 5px;
 
+      .box {
+        width: 67px;
+        height: 68px;
+        img {
+          padding: 10px 15px;
+          width: 70px;
+        }
+      }
+      .icon-details {
+        margin-top: 0px;
+
+        h5 {
+          font-size: 16px;
+        }
+
+        small {
+          font-size: 8px;
+        }
+      }
+    }
+
+    .our-services-right {
+      margin-top: 10px;
+      margin-left: 10px;
+
+      h1 {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+
+      p {
+        width: 275px;
+
+        font-size: 10px;
+      }
+      button {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 321px) and (max-width: 430px) {
+  .our_services {
+    height: 850px;
+
+    .title {
+      font-size: 22px;
+
+      &::after {
+        width: 200px;
+      }
+    }
+
+    .our-services-container {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-auto-flow: column;
+      margin-left: 35px;
+    }
+
+    .our-services-left-details {
+      gap: 20px;
+      margin-top: 10px;
+      margin-left: 5px;
+    }
+
+    .our-services-left-details {
+      gap: 20px;
+      margin-top: 10px;
+      margin-left: 5px;
+
+      .box {
+        width: 67px;
+        height: 68px;
+        img {
+          padding: 10px 15px;
+          width: 70px;
+        }
+      }
+      .icon-details {
+        margin-top: 0px;
+
+        h5 {
+          font-size: 13px;
+        }
+
+        small {
+          font-size: 8px;
+        }
+      }
+    }
+
+    .our-services-right {
+      margin-top: -52px;
+      margin-left: 10px;
+
+      h1 {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+
+      p {
+        width: 275px;
+
+        font-size: 10px;
+      }
+      button {
+        margin-top: 40px;
+      }
+    }
+  }
 }
 
 @media (min-width: 431px) and (max-width: 768px) {
+  .our_services {
+    height: 450px;
 
-    .our_services {
-        height: 450px;
+    .title {
+      font-size: 30px;
 
-        .title {
-            font-size: 30px;
+      &::after {
+        width: 200px;
+      }
+    }
 
-            &::after {
-                width: 200px;
-            }
+    .our-services-container {
+      margin-left: 60px;
+    }
+
+    // .our-services-left-details {
+    //     gap: 20px;
+    //     margin-top: 10px;
+    //     margin-left: 5px;
+    // }
+
+    .our-services-left-details {
+      gap: 20px;
+      margin-top: 10px;
+      margin-left: 5px;
+
+      .box {
+        width: 67px;
+        height: 68px;
+        img {
+          padding: 15px;
+          width: 70px;
         }
-    
-        .our-services-container {
-            margin-left: 60px;    
-        }
+      }
+      .icon-details {
+        margin-top: 0px;
 
-        // .our-services-left-details {     
-        //     gap: 20px;       
-        //     margin-top: 10px;
-        //     margin-left: 5px;
-        // }
-
-        .our-services-left-details {
-            gap: 20px;
-            margin-top: 10px;
-            margin-left: 5px;
-
-            .box {
-                    width: 67px;
-                    height: 68px;
-                img {
-                    padding: 15px;
-                    width: 70px;
-                
-                }
-            }
-            .icon-details {
-                margin-top: 0px;
-
-                h5 {
-                    font-size: 16px;
-                }
-
-                small {
-                    font-size: 9px;
-                   
-                }
-            }
+        h5 {
+          font-size: 16px;
         }
 
-        
-        .our-services-right {
-            // margin-top: 10px;
-            // margin-left: 10px;
-
-            h1 {
-                font-size: 20px;
-                margin-top: 20px;
-            }
-
-            p {
-                width: 275px;   
-                font-size: 10px;
-            }
-            button {
-                margin-top: 35px;
-
-                
-            }
+        small {
+          font-size: 9px;
         }
-    } 
+      }
+    }
 
+    .our-services-right {
+      // margin-top: 10px;
+      // margin-left: 10px;
+
+      h1 {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+
+      p {
+        width: 275px;
+        font-size: 10px;
+      }
+      button {
+        margin-top: 35px;
+      }
+    }
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    
-           .our-services-left-details {
-            gap: 20px;
-            margin-top: 26px;
-            margin-left: 26px;
+  .our-services-left-details {
+    gap: 20px;
+    margin-top: 26px;
+    margin-left: 26px;
 
-            .box {
-                    width: 90px;
-                    height: 90px;
-                img {
-                    padding: 15px;
-                    width: 90px;
-                
-                }
-            }
-            .icon-details {
-                margin-top: 0px;
+    .box {
+      width: 90px;
+      height: 90px;
+      img {
+        padding: 15px;
+        width: 90px;
+      }
+    }
+    .icon-details {
+      margin-top: 0px;
 
-                h5 {
-                    font-size: 18px;
-                }
+      h5 {
+        font-size: 18px;
+      }
 
-                small {
-                    font-size: 12px;
-                   
-                }
-            }
-        }
-
-
-
+      small {
+        font-size: 12px;
+      }
+    }
+  }
 }

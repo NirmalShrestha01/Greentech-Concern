@@ -19,8 +19,8 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #00132C;
+  font-family: "Poppins", sans-serif;
+  background-color: #00132c;
   overflow-x: hidden;
   position: relative;
 }
@@ -32,7 +32,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #3A3845;
+  background-color: #3a3845;
   transition: background-color 0.3s ease-in-out;
   z-index: 10000;
 }
@@ -44,6 +44,7 @@ body {
 
 h1 {
   font-size: 38px;
+  color: #fff;
 }
 
 h2 {
@@ -66,8 +67,8 @@ p {
 }
 
 small {
-  font-size: 12px;
-  color: #F7F7F7;
+  font-size: 11px;
+  color: #f7f7f7;
 }
 
 hr {
@@ -88,7 +89,7 @@ hr {
 }
 
 .title::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -102,7 +103,7 @@ hr {
 button {
   background-color: #019267;
   padding: 8px 11px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   border-radius: 10px;
   margin-top: 40px;
@@ -113,7 +114,7 @@ button {
 }
 
 button:hover {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
 }
 
 button a {
@@ -125,7 +126,7 @@ button a {
 }
 
 .icon-details a:hover {
-  color: #6BCB77;
+  color: #6bcb77;
 }
 
 .contact_description a {
@@ -133,11 +134,11 @@ button a {
 }
 
 .contact_description a:hover {
-  color: #6BCB77;
+  color: #6bcb77;
 }
 
 .banner {
-  background-color: #00142C;
+  background-color: #00142c;
   background-image: url(../images/test.png);
   max-width: 100%;
   height: 100vh;
@@ -163,7 +164,7 @@ button a {
 }
 
 .nav .nav_links ul li::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 3px;
   background-color: #019267;
@@ -206,7 +207,7 @@ button a {
 .banner_description .banner-description-left button {
   background-color: #019267;
   padding: 12px 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   border-radius: 10px;
   margin-top: 50px;
@@ -215,7 +216,7 @@ button a {
 }
 
 .banner_description .banner-description-left button:hover {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
 }
 
 .banner_description .banner-description-left button a {
@@ -595,7 +596,7 @@ button a {
   .banner_description .banner-description-left button {
     background-color: #019267;
     padding: 12px 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     border-radius: 10px;
     margin-top: 50px;
@@ -728,6 +729,7 @@ button a {
 .our-services-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 70px;
 }
 
 .our-services-left-details {
@@ -735,7 +737,6 @@ button a {
   gap: 40px;
   color: #fff;
   margin-top: 30px;
-  margin-left: 80px;
 }
 
 .our-services-left-details .box {
@@ -747,12 +748,20 @@ button a {
   padding: 10px 15px;
 }
 
+.our-services-left-details .domain_hosting_box img {
+  width: 90px;
+}
+
 .our-services-left-details .icon-details {
   margin-top: 10px;
 }
 
+.our-services-left-details .icon-details p {
+  line-height: 1.4;
+}
+
 .our-services-right {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 50px;
 }
 
@@ -832,7 +841,7 @@ button a {
 
 @media (min-width: 321px) and (max-width: 430px) {
   .our_services {
-    height: 748px;
+    height: 850px;
   }
   .our_services .title {
     font-size: 22px;
@@ -844,7 +853,7 @@ button a {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: column;
-    margin-left: 26px;
+    margin-left: 35px;
   }
   .our_services .our-services-left-details {
     gap: 20px;
@@ -868,13 +877,13 @@ button a {
     margin-top: 0px;
   }
   .our_services .our-services-left-details .icon-details h5 {
-    font-size: 16px;
+    font-size: 13px;
   }
   .our_services .our-services-left-details .icon-details small {
     font-size: 8px;
   }
   .our_services .our-services-right {
-    margin-top: 10px;
+    margin-top: -52px;
     margin-left: 10px;
   }
   .our_services .our-services-right h1 {
@@ -1009,19 +1018,19 @@ button a {
 }
 
 .counter_one::after {
-  content: '+';
+  content: "+";
 }
 
 .counter_two::after {
-  content: '+';
+  content: "+";
 }
 
 .counter_three::after {
-  content: '+';
+  content: "+";
 }
 
 .counter_four::after {
-  content: '%';
+  content: "%";
 }
 
 /*--------------------------------------
@@ -1276,14 +1285,14 @@ button a {
 
 .partner_container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   align-items: center;
   height: 200px;
 }
 
 .partner_container img {
-  width: 200px;
+  width: 150px;
 }
 
 .partner_container img:hover {
@@ -1405,7 +1414,7 @@ button a {
   border-radius: 10px;
   outline: none;
   border: none;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }
 
 .my-form textarea {
@@ -1415,12 +1424,13 @@ button a {
   border-radius: 10px;
   outline: none;
   border: none;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   padding: 13px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.form_box input, .my-form textarea::placeholder {
+.form_box input,
+.my-form textarea::placeholder {
   color: #6a737c;
   font-size: 16px;
 }
@@ -1462,7 +1472,8 @@ button a {
   .contact_container .my-form textarea {
     width: 250px;
   }
-  .contact_container .form_box input, .contact_container .my-form textarea::placeholder {
+  .contact_container .form_box input,
+  .contact_container .my-form textarea::placeholder {
     font-size: 13px;
   }
 }
@@ -1496,14 +1507,16 @@ button a {
 
 .footer_container {
   display: grid;
-  grid-template-columns: 3fr 2fr 1fr 1fr;
+  grid-template-columns: 3fr 2fr 2fr 2fr;
 }
 
 .footer_container h5 {
   font-size: 16px;
 }
 
-.footer_container p, .footer_container a, .footer_container span {
+.footer_container p,
+.footer_container a,
+.footer_container span {
   font-size: 12px;
   font-weight: 100;
   color: #fff;
@@ -1534,21 +1547,44 @@ button a {
   margin-left: 18px;
 }
 
-.footer_row_two, .footer_row_three, .footer_row_four {
+.footer_row_two {
   margin-top: 35px;
   margin-left: 30px;
   line-height: 3;
 }
 
-.footer_row_two a:hover, .footer_row_three a:hover, .footer_row_four a:hover {
-  color: #6BCB77;
+.footer_row_two a:hover {
+  color: #6bcb77;
+}
+
+.footer_row_three {
+  margin-left: 90px;
+  line-height: 3;
+  margin-top: 35px;
+}
+
+.footer_row_three a:hover {
+  color: #6bcb77;
+}
+
+.footer_row_four {
+  margin-left: 84px;
+  line-height: 3;
+  margin-top: 35px;
+}
+
+.footer_row_four a:hover {
+  color: #6bcb77;
 }
 
 .footer_row_two {
   margin-left: 70px;
 }
 
-.footer_address, .footer_contact, .footer_mail, .footer_time {
+.footer_address,
+.footer_contact,
+.footer_mail,
+.footer_time {
   display: flex;
   align-items: center;
 }
@@ -1668,7 +1704,7 @@ button a {
 }
 
 .banner-about {
-  background-color: #00142C;
+  background-color: #00142c;
   background-image: url(../images/test.png);
   max-width: 100%;
   min-height: 50vh;
@@ -1688,7 +1724,7 @@ button a {
 
 .about_description {
   background: url(../images/aboutus-body-background-new.png);
-  background-color: #BFC4CB;
+  background-color: #bfc4cb;
   width: 100%;
   height: 1400px;
   z-index: -1;
@@ -1699,8 +1735,8 @@ button a {
 }
 
 .greentech_short_desp .short_description p {
-  background-color: #A9B0BF;
-  color: #00132C;
+  background-color: #a9b0bf;
+  color: #00132c;
   padding: 50px;
   text-align: left;
   border-radius: 10px;
@@ -1719,7 +1755,7 @@ button a {
 }
 
 .about_cybersecurity_container .cybersecurity_right {
-  background-color: #A9B0BF;
+  background-color: #a9b0bf;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
   padding: 50px;
@@ -1731,7 +1767,7 @@ button a {
 }
 
 .about_cybersecurity_container .cybersecurity_right .cybersecurity_desp p {
-  color: #00132C;
+  color: #00132c;
   text-align: justify;
   margin-top: 10px;
 }
@@ -1749,7 +1785,7 @@ button a {
 }
 
 .about_webdevlopment_container .webdevlopment_left {
-  background-color: #A9B0BF;
+  background-color: #a9b0bf;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
   padding: 50px;
@@ -1762,7 +1798,7 @@ button a {
 }
 
 .about_webdevlopment_container .webdevlopment_left .webdevlopment_desp p {
-  color: #00132C;
+  color: #00132c;
   text-align: justify;
   margin-top: 10px;
 }
@@ -2106,7 +2142,7 @@ button a {
 
 .service_description {
   background: url(../images/our-services-background.png);
-  background-color: #BFC4CB;
+  background-color: #bfc4cb;
   width: 100%;
   height: 1520px;
   background-position: center;
@@ -2115,7 +2151,7 @@ button a {
 }
 
 .service_description_one {
-  background-color: #A9B0BF;
+  background-color: #a9b0bf;
   display: grid;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
@@ -2140,7 +2176,7 @@ button a {
 }
 
 .service_description_datasecurity .service_description_one_left p {
-  color: #00132C;
+  color: #00132c;
   margin-top: 30px;
   text-align: justify;
 }
@@ -2162,7 +2198,7 @@ button a {
 }
 
 .service_description_itconsulting .service_description_one_right p {
-  color: #00132C;
+  color: #00132c;
   margin-top: 30px;
   text-align: justify;
 }
@@ -2172,7 +2208,7 @@ button a {
 }
 
 .service_description_threatintelligence .service_description_one_right img {
-  width: 396px;
+  width: 445px;
 }
 
 .service_description_threatintelligence .service_description_one_left {
@@ -2184,7 +2220,7 @@ button a {
 }
 
 .service_description_threatintelligence .service_description_one_left p {
-  color: #00132C;
+  color: #00132c;
   margin-top: 30px;
   text-align: justify;
 }
@@ -2206,7 +2242,7 @@ button a {
 }
 
 .service_description_webdevlopment .service_description_one_right p {
-  color: #00132C;
+  color: #00132c;
   margin-top: 30px;
   text-align: justify;
 }
@@ -2238,7 +2274,7 @@ button a {
   }
   .service_description_datasecurity .service_description_one_left p,
   .service_description_threatintelligence .service_description_one_left p {
-    color: #00132C;
+    color: #00132c;
     margin-top: 7px;
     text-align: justify;
   }
@@ -2262,7 +2298,7 @@ button a {
   }
   .service_description_itconsulting .service_description_one_right p,
   .service_description_webdevlopment .service_description_one_right p {
-    color: #00132C;
+    color: #00132c;
     margin-top: 7px;
     text-align: justify;
   }
@@ -2301,7 +2337,7 @@ button a {
   }
   .service_description_datasecurity .service_description_one_left p,
   .service_description_threatintelligence .service_description_one_left p {
-    color: #00132C;
+    color: #00132c;
     margin-top: 7px;
     text-align: justify;
   }
@@ -2325,7 +2361,7 @@ button a {
   }
   .service_description_itconsulting .service_description_one_right p,
   .service_description_webdevlopment .service_description_one_right p {
-    color: #00132C;
+    color: #00132c;
     margin-top: 7px;
     text-align: justify;
   }
@@ -2364,7 +2400,7 @@ button a {
   }
   .service_description_datasecurity .service_description_one_left p,
   .service_description_threatintelligence .service_description_one_left p {
-    color: #00132C;
+    color: #00132c;
     margin-top: 7px;
     text-align: justify;
   }
@@ -2388,7 +2424,7 @@ button a {
   }
   .service_description_itconsulting .service_description_one_right p,
   .service_description_webdevlopment .service_description_one_right p {
-    color: #00132C;
+    color: #00132c;
     margin-top: 7px;
     text-align: justify;
   }
@@ -2427,7 +2463,7 @@ button a {
   }
   .service_description_datasecurity .service_description_one_left p,
   .service_description_threatintelligence .service_description_one_left p {
-    color: #00132C;
+    color: #00132c;
     margin-top: 7px;
     text-align: justify;
   }
@@ -2451,7 +2487,7 @@ button a {
   }
   .service_description_itconsulting .service_description_one_right p,
   .service_description_webdevlopment .service_description_one_right p {
-    color: #00132C;
+    color: #00132c;
     margin-top: 7px;
     text-align: justify;
   }
@@ -2490,7 +2526,7 @@ button a {
   }
   .service_description_datasecurity .service_description_one_left p,
   .service_description_threatintelligence .service_description_one_left p {
-    color: #00132C;
+    color: #00132c;
     margin: 5px 10px 0px 5px;
     text-align: justify;
     font-size: 12px;
@@ -2515,7 +2551,7 @@ button a {
   }
   .service_description_itconsulting .service_description_one_right p,
   .service_description_webdevlopment .service_description_one_right p {
-    color: #00132C;
+    color: #00132c;
     margin: 5px 10px 0px 5px;
     text-align: justify;
     font-size: 12px;
@@ -2524,7 +2560,7 @@ button a {
 
 .contact_description {
   background: url(../images/contact-us-banner-image.png);
-  background-color: #BFC4CB;
+  background-color: #bfc4cb;
   width: 100%;
   height: 400px;
 }
@@ -2537,7 +2573,7 @@ button a {
 }
 
 .contact_description_container .contact_box {
-  background-color: #33A384;
+  background-color: #33a384;
   padding: 55px;
   border-radius: 10px;
 }
@@ -2569,7 +2605,7 @@ button a {
     height: 600px;
   }
   .contact_description_container .contact_box {
-    background-color: #33A384;
+    background-color: #33a384;
     padding: 15px;
     border-radius: 10px;
   }
@@ -2590,7 +2626,7 @@ button a {
     margin-left: 20px;
   }
   .contact_description_container .contact_box {
-    background-color: #33A384;
+    background-color: #33a384;
     padding: 15px;
     border-radius: 10px;
   }
@@ -2611,7 +2647,7 @@ button a {
     margin-left: 35px;
   }
   .contact_description_container .contact_box {
-    background-color: #33A384;
+    background-color: #33a384;
     padding: 15px;
     border-radius: 10px;
   }
@@ -2632,7 +2668,7 @@ button a {
     margin-left: 52px;
   }
   .contact_description_container .contact_box {
-    background-color: #33A384;
+    background-color: #33a384;
     padding: 15px;
     border-radius: 10px;
   }
@@ -2646,7 +2682,7 @@ button a {
     height: 265px;
   }
   .contact_description_container .contact_box {
-    background-color: #33A384;
+    background-color: #33a384;
     padding: 20px;
     border-radius: 10px;
   }
@@ -2667,7 +2703,7 @@ button a {
     height: 265px;
   }
   .contact_description_container .contact_box {
-    background-color: #33A384;
+    background-color: #33a384;
     padding: 20px;
     border-radius: 10px;
   }

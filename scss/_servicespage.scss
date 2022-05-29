@@ -1,433 +1,416 @@
 .service_description {
-    background: url(../images/our-services-background.png);
-    background-color: #BFC4CB;
-    width: 100%;
-    height: 1520px;
-    background-position: center;
-    background-size: cover;
-    padding-top:40px;
+  background: url(../images/our-services-background.png);
+  background-color: #bfc4cb;
+  width: 100%;
+  height: 1520px;
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
 }
 
 .service_description_one {
-    background-color: #A9B0BF;
-    display: grid;   
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
-    border-radius: 10px; 
-    height: 310px;
-    margin-top:30px;
+  background-color: #a9b0bf;
+  display: grid;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  height: 310px;
+  margin-top: 30px;
 }
 
 .service_description_datasecurity {
-    grid-template-columns: 2fr 1fr ;
-   
+  grid-template-columns: 2fr 1fr;
 
-    .service_description_one_right img {
-        width: 389px;
+  .service_description_one_right img {
+    width: 389px;
+  }
+
+  .service_description_one_left {
+    padding: 50px;
+
+    h3 {
+      color: $primary-color;
     }
 
-    .service_description_one_left {
-        padding: 50px ;
-
-        h3 {
-            color: $primary-color;
-        }
-
-        p {
-            color: $text-color;
-            margin-top: 30px;
-            text-align: justify;
-        }
+    p {
+      color: $text-color;
+      margin-top: 30px;
+      text-align: justify;
     }
+  }
 }
 
 .service_description_itconsulting {
-    grid-template-columns: 1fr 2fr ;
-    
+  grid-template-columns: 1fr 2fr;
 
+  .service_description_one_left img {
+    width: 412px;
+  }
 
-    .service_description_one_left img {
-        width: 412px;
+  .service_description_one_right {
+    padding: 50px;
+
+    h3 {
+      color: $primary-color;
     }
 
-    .service_description_one_right {
-        padding: 50px ;
-
-        h3 {
-            color: $primary-color;
-        }
-
-        p {
-            color: $text-color;
-            margin-top: 30px;
-            text-align: justify;
-        }
+    p {
+      color: $text-color;
+      margin-top: 30px;
+      text-align: justify;
     }
+  }
 }
 
 .service_description_threatintelligence {
-    grid-template-columns: 2fr 1fr ;
+  grid-template-columns: 2fr 1fr;
 
-    .service_description_one_right img {
-        width: 396px;
+  .service_description_one_right img {
+    width: 445px;
+  }
+
+  .service_description_one_left {
+    padding: 50px;
+
+    h3 {
+      color: $primary-color;
     }
 
-    .service_description_one_left {
-        padding: 50px ;
-
-        h3 {
-            color: $primary-color;
-        }
-
-        p {
-            color: $text-color;
-            margin-top: 30px;
-            text-align: justify;
-        }
+    p {
+      color: $text-color;
+      margin-top: 30px;
+      text-align: justify;
     }
+  }
 }
-
 
 .service_description_webdevlopment {
-    grid-template-columns: 1fr 2fr ;
+  grid-template-columns: 1fr 2fr;
 
-    .service_description_one_left img {
-        width: 413px;
+  .service_description_one_left img {
+    width: 413px;
+  }
+
+  .service_description_one_right {
+    padding: 50px;
+
+    h3 {
+      color: $primary-color;
     }
 
-    .service_description_one_right {
-        padding: 50px ;
-
-        h3 {
-            color: $primary-color;
-        }
-
-        p {
-            color: $text-color;
-            margin-top: 30px;
-            text-align: justify;
-        }
+    p {
+      color: $text-color;
+      margin-top: 30px;
+      text-align: justify;
     }
+  }
 }
-
-
-
 
 /*------------------------------------------------------------------
 ----------------------MEDIA QUERIES STARTED---------------------
 ---------------------------------------------------------------*/
 
-@media (max-width: 320px) { 
-    .service_description {
-        min-height: 1700px;
-    } 
-.service_description_datasecurity,
-.service_description_threatintelligence{
-    
+@media (max-width: 320px) {
+  .service_description {
+    min-height: 1700px;
+  }
+  .service_description_datasecurity,
+  .service_description_threatintelligence {
     display: inline-block;
     .service_description_one_right img {
-        display: none;
+      display: none;
     }
 
     .service_description_one_left {
-        padding: 10px ;
+      padding: 10px;
 
-        h3 {
-            color: $primary-color;
-            margin-top: 10px;
-            font-size: 25px;
-        }
+      h3 {
+        color: $primary-color;
+        margin-top: 10px;
+        font-size: 25px;
+      }
 
-        p {
-            color: $text-color;
-            margin-top: 7px;
-            text-align: justify;
-        }
+      p {
+        color: $text-color;
+        margin-top: 7px;
+        text-align: justify;
+      }
     }
-}
-.service_description_itconsulting,
-.service_description_webdevlopment{
-    
+  }
+  .service_description_itconsulting,
+  .service_description_webdevlopment {
     display: inline-block;
     .service_description_one_left img {
-        display: none;
+      display: none;
     }
 
     .service_description_one_right {
-        padding: 10px ;
+      padding: 10px;
 
-        h3 {
-            color: $primary-color;
-            margin-top: 10px;
-            font-size: 25px;
-        }
+      h3 {
+        color: $primary-color;
+        margin-top: 10px;
+        font-size: 25px;
+      }
 
-        p {
-            color: $text-color;
-            margin-top: 7px;
-            text-align: justify;
-        }
+      p {
+        color: $text-color;
+        margin-top: 7px;
+        text-align: justify;
+      }
     }
-}
+  }
 
-.service_description_itconsulting {
+  .service_description_itconsulting {
     min-height: 360px;
-}    
-.service_description_threatintelligence {
+  }
+  .service_description_threatintelligence {
     min-height: 380px;
-}    
-.service_description_webdevlopment {
+  }
+  .service_description_webdevlopment {
     min-height: 380px;
-}    
-
+  }
 }
-@media (min-width: 321px)  and (max-width: 360px){
-    .service_description {
-        min-height: 1700px;
-    } 
-.service_description_datasecurity,
-.service_description_threatintelligence{
-    
+@media (min-width: 321px) and (max-width: 360px) {
+  .service_description {
+    min-height: 1700px;
+  }
+  .service_description_datasecurity,
+  .service_description_threatintelligence {
     display: inline-block;
     .service_description_one_right img {
-        display: none;
+      display: none;
     }
 
     .service_description_one_left {
-        padding: 10px ;
+      padding: 10px;
 
-        h3 {
-            color: $primary-color;
-            margin-top: 10px;
-            font-size: 25px;
-        }
+      h3 {
+        color: $primary-color;
+        margin-top: 10px;
+        font-size: 25px;
+      }
 
-        p {
-            color: $text-color;
-            margin-top: 7px;
-            text-align: justify;
-        }
+      p {
+        color: $text-color;
+        margin-top: 7px;
+        text-align: justify;
+      }
     }
-}
-.service_description_itconsulting,
-.service_description_webdevlopment{
-    
+  }
+  .service_description_itconsulting,
+  .service_description_webdevlopment {
     display: inline-block;
     .service_description_one_left img {
-        display: none;
+      display: none;
     }
 
     .service_description_one_right {
-        padding: 10px ;
+      padding: 10px;
 
-        h3 {
-            color: $primary-color;
-            margin-top: 10px;
-            font-size: 25px;
-        }
+      h3 {
+        color: $primary-color;
+        margin-top: 10px;
+        font-size: 25px;
+      }
 
-        p {
-            color: $text-color;
-            margin-top: 7px;
-            text-align: justify;
-        }
+      p {
+        color: $text-color;
+        margin-top: 7px;
+        text-align: justify;
+      }
     }
-}
+  }
 
-.service_description_itconsulting {
+  .service_description_itconsulting {
     min-height: 360px;
-}    
-.service_description_threatintelligence {
+  }
+  .service_description_threatintelligence {
     min-height: 380px;
-}    
-.service_description_webdevlopment {
+  }
+  .service_description_webdevlopment {
     min-height: 380px;
-}    
+  }
 }
 
-@media (min-width:361px) and (max-width:395px) {
-    .service_description {
-        min-height: 1530px;
-    } 
-.service_description_datasecurity,
-.service_description_threatintelligence{
-    
+@media (min-width: 361px) and (max-width: 395px) {
+  .service_description {
+    min-height: 1530px;
+  }
+  .service_description_datasecurity,
+  .service_description_threatintelligence {
     display: inline-block;
     .service_description_one_right img {
-        display: none;
+      display: none;
     }
 
     .service_description_one_left {
-        padding: 10px ;
+      padding: 10px;
 
-        h3 {
-            color: $primary-color;
-            margin-top: 10px;
-            font-size: 25px;
-        }
+      h3 {
+        color: $primary-color;
+        margin-top: 10px;
+        font-size: 25px;
+      }
 
-        p {
-            color: $text-color;
-            margin-top: 7px;
-            text-align: justify;
-        }
+      p {
+        color: $text-color;
+        margin-top: 7px;
+        text-align: justify;
+      }
     }
-}
-.service_description_itconsulting,
-.service_description_webdevlopment{
-    
+  }
+  .service_description_itconsulting,
+  .service_description_webdevlopment {
     display: inline-block;
     .service_description_one_left img {
-        display: none;
+      display: none;
     }
 
     .service_description_one_right {
-        padding: 10px ;
+      padding: 10px;
 
-        h3 {
-            color: $primary-color;
-            margin-top: 10px;
-            font-size: 25px;
-        }
+      h3 {
+        color: $primary-color;
+        margin-top: 10px;
+        font-size: 25px;
+      }
 
-        p {
-            color: $text-color;
-            margin-top: 7px;
-            text-align: justify;
-        }
+      p {
+        color: $text-color;
+        margin-top: 7px;
+        text-align: justify;
+      }
     }
-}
+  }
 
-.service_description_itconsulting {
+  .service_description_itconsulting {
     min-height: 310px;
-}    
-.service_description_threatintelligence {
+  }
+  .service_description_threatintelligence {
     min-height: 313px;
-}    
-.service_description_webdevlopment {
+  }
+  .service_description_webdevlopment {
     min-height: 325px;
-} 
+  }
 }
-@media (min-width: 396px)  and (max-width: 430px){
-    .service_description {
-        min-height: 1530px;
-    } 
-.service_description_datasecurity,
-.service_description_threatintelligence{
-    
+@media (min-width: 396px) and (max-width: 430px) {
+  .service_description {
+    min-height: 1530px;
+  }
+  .service_description_datasecurity,
+  .service_description_threatintelligence {
     display: inline-block;
     .service_description_one_right img {
-        display: none;
+      display: none;
     }
 
     .service_description_one_left {
-        padding: 10px ;
+      padding: 10px;
 
-        h3 {
-            color: $primary-color;
-            margin-top: 10px;
-            font-size: 25px;
-        }
+      h3 {
+        color: $primary-color;
+        margin-top: 10px;
+        font-size: 25px;
+      }
 
-        p {
-            color: $text-color;
-            margin-top: 7px;
-            text-align: justify;
-        }
+      p {
+        color: $text-color;
+        margin-top: 7px;
+        text-align: justify;
+      }
     }
-}
-.service_description_itconsulting,
-.service_description_webdevlopment{
-    
+  }
+  .service_description_itconsulting,
+  .service_description_webdevlopment {
     display: inline-block;
     .service_description_one_left img {
-        display: none;
+      display: none;
     }
 
     .service_description_one_right {
-        padding: 10px ;
+      padding: 10px;
 
-        h3 {
-            color: $primary-color;
-            margin-top: 10px;
-            font-size: 25px;
-        }
+      h3 {
+        color: $primary-color;
+        margin-top: 10px;
+        font-size: 25px;
+      }
 
-        p {
-            color: $text-color;
-            margin-top: 7px;
-            text-align: justify;
-        }
+      p {
+        color: $text-color;
+        margin-top: 7px;
+        text-align: justify;
+      }
     }
-    }
+  }
 
-    .service_description_itconsulting {
-        min-height: 310px;
-    }    
-    .service_description_threatintelligence {
-        min-height: 313px;
-    }    
-    .service_description_webdevlopment {
-        min-height: 325px;
-    } 
+  .service_description_itconsulting {
+    min-height: 310px;
+  }
+  .service_description_threatintelligence {
+    min-height: 313px;
+  }
+  .service_description_webdevlopment {
+    min-height: 325px;
+  }
 }
-@media (min-width: 431px)  and (max-width: 768px){
-    .service_description {
-    
+@media (min-width: 431px) and (max-width: 768px) {
+  .service_description {
     height: 1010px;
+  }
+
+  .service_description_datasecurity,
+  .service_description_threatintelligence {
+    grid-template-columns: 2fr 1fr;
+    height: 190px !important;
+
+    .service_description_one_right img {
+      max-width: 100%;
     }
 
-    .service_description_datasecurity,
-    .service_description_threatintelligence {
-        grid-template-columns: 2fr 1fr ;
-        height: 190px !important;
+    .service_description_one_left {
+      padding: 0px;
 
-        .service_description_one_right img {
-            max-width: 100%;
-        }
+      h3 {
+        color: $primary-color;
+        padding: 5px;
+      }
 
-        .service_description_one_left {
-            padding: 0px ;
+      p {
+        color: $text-color;
+        margin: 5px 10px 0px 5px;
+        text-align: justify;
+        font-size: 12px;
+      }
+    }
+  }
 
-            h3 {
-                color: $primary-color;
-                padding: 5px;
-            }
+  .service_description_itconsulting,
+  .service_description_webdevlopment {
+    grid-template-columns: 1fr 2fr;
+    height: 190px !important;
 
-            p {
-                color: $text-color;
-                margin: 5px 10px 0px 5px;
-                text-align: justify;
-                font-size: 12px;
-            }
-        }
+    .service_description_one_left img {
+      max-width: 100%;
     }
 
-     .service_description_itconsulting,
-    .service_description_webdevlopment {
-        grid-template-columns: 1fr 2fr ;
-        height: 190px !important;
+    .service_description_one_right {
+      padding: 0px;
 
-        .service_description_one_left img {
-            max-width: 100%;
-        }
+      h3 {
+        color: $primary-color;
+        padding: 5px;
+      }
 
-        .service_description_one_right {
-            padding: 0px ;
-
-            h3 {
-                color: $primary-color;
-                padding: 5px;
-            }
-
-            p {
-                color: $text-color;
-                margin: 5px 10px 0px 5px;
-                text-align: justify;
-                font-size: 12px;
-            }
-        }
+      p {
+        color: $text-color;
+        margin: 5px 10px 0px 5px;
+        text-align: justify;
+        font-size: 12px;
+      }
     }
+  }
 }
 // @media (min-width: 769px) and (max-width: 1024px) {
-    
+
 // }

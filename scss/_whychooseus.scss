@@ -1,224 +1,202 @@
 .why_choose_us_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .why_choose_us_left img {
-    margin: 70px 0 0 150px;
-    width: 380px;
+  margin: 70px 0 0 150px;
+  width: 380px;
 }
 
 .why_choose_us_right {
-    margin-top: 50px;
-    margin-left: 10px;
+  margin-top: 50px;
+  margin-left: 10px;
 
-    .our-services-left-details {
-        margin-left: 1px;
-    }
+  .our-services-left-details {
+    margin-left: 1px;
+  }
 
-    h2 {
-        margin-left: -231px;
+  h2 {
+    margin-left: -231px;
 
-        &::after {
-            margin-left: -64px;
-            width: 200px;
-        }
+    &::after {
+      margin-left: -64px;
+      width: 200px;
     }
+  }
 
-    .box {
-        background-color: $primary-color;
-        border-radius: 10px;
-    
-        img {
-            padding: 8px 12px;
-            width: 80px;
-            
-        }
+  .box {
+    background-color: $primary-color;
+    border-radius: 10px;
+
+    img {
+      padding: 8px 12px;
+      width: 80px;
     }
-    .icon-details {
-        margin-top: 10px;  
-    }
+  }
+  .icon-details {
+    margin-top: 10px;
+  }
 }
-
 
 /*--------------------------------------
 ----------MEDIA QUERIES STARTED---------
 ---------------------------------------*/
 
-
 @media (max-width: 320px) {
-
-    .why_choose_us {
-
-        .why_choose_us_left img {
-            display: none;
-        }
-
-        .why_choose_us_right {
-            margin-top: 10px;
-
-            h2 {
-                font-size: 28px;
-                margin-left: -143px;
-
-                &::after {
-                    margin-left: -3px;
-                }
-            }
-        
-        .our-services-left-details {
-
-            margin-left: -140px;
-            
-            .icon-details {
-                margin-top: -1px;
-                margin-left: -20px;
-            }
-
-            h5 {
-                font-size: 9px;
-            }
-
-            small {
-                font-size: 7px;
-                
-            }
-
-            img {
-                width: 50px;
-            }
-
-        } 
-
-    }
-}
-
-}
-
-@media (min-width: 321px) and (max-width:430px) {
-
-    .why_choose_us {
-
-        .why_choose_us_left img {
-            display: none;
-        }
-
-        .why_choose_us_right {
-            margin-top: 10px;
-
-            h2 {
-                font-size: 28px;
-                margin-left: -208px;
-
-                &::after {
-                    margin-left: -3px;
-                }
-            }
-        
-        .our-services-left-details {
-
-            margin-left: -142px;
-            
-            .icon-details {
-                margin-top: -1px;
-                margin-left: -20px;
-            }
-
-            h5 {
-                font-size: 12px;
-            }
-
-            small {
-                font-size: 8px;
-                
-            }
-            img {
-                width: 70px;
-            }
-        } 
-    }
-}
-
-}
-@media (min-width: 431px) and (max-width:768px) {
-
-    .why_choose_us {
-
-        .why_choose_us_left img {
-            display: none;
-        }
-
-        .why_choose_us_right {
-            margin-top: 10px;
-
-            h2 {
-                font-size: 35px;
-                margin-left: -365px;
-
-                &::after {
-                    margin-left: -3px;
-                }
-            }
-        
-        .our-services-left-details {
-
-            margin-left: -210px;
-            
-            .icon-details {
-                margin-top: 8px;
-                margin-left: -9px;
-            }
-
-            h5 {
-                font-size: 22px;
-            }
-
-            small {
-                font-size: 13px;
-                
-            }
-            img {
-                width: 97px;
-            }
-        } 
-    }
-}
-
-}
-
-@media (min-width: 769px) and (max-width:1024px) {
-
+  .why_choose_us {
     .why_choose_us_left img {
-        margin: 71px 0 0 52px;
-        width: 380px;
+      display: none;
     }
 
     .why_choose_us_right {
+      margin-top: 10px;
+
+      h2 {
+        font-size: 28px;
+        margin-left: -143px;
+
+        &::after {
+          margin-left: -3px;
+        }
+      }
+
+      .our-services-left-details {
+        margin-left: -140px;
+
+        .icon-details {
+          margin-top: -1px;
+          margin-left: -20px;
+        }
+
+        h5 {
+          font-size: 9px;
+        }
+
+        small {
+          font-size: 7px;
+        }
+
+        img {
+          width: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 321px) and (max-width: 430px) {
+  .why_choose_us {
+    .why_choose_us_left img {
+      display: none;
+    }
+
+    .why_choose_us_right {
+      margin-top: 10px;
+
+      h2 {
+        font-size: 28px;
+        margin-left: -208px;
+
+        &::after {
+          margin-left: -3px;
+        }
+      }
+
+      .our-services-left-details {
+        margin-left: -142px;
+
+        .icon-details {
+          margin-top: -1px;
+          margin-left: -20px;
+        }
+
+        h5 {
+          font-size: 12px;
+        }
+
+        small {
+          font-size: 8px;
+        }
+        img {
+          width: 70px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 431px) and (max-width: 768px) {
+  .why_choose_us {
+    .why_choose_us_left img {
+      display: none;
+    }
+
+    .why_choose_us_right {
+      margin-top: 10px;
+
+      h2 {
+        font-size: 35px;
+        margin-left: -365px;
+
+        &::after {
+          margin-left: -3px;
+        }
+      }
+
+      .our-services-left-details {
+        margin-left: -210px;
+
+        .icon-details {
+          margin-top: 8px;
+          margin-left: -9px;
+        }
+
+        h5 {
+          font-size: 22px;
+        }
+
+        small {
+          font-size: 13px;
+        }
+        img {
+          width: 97px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .why_choose_us_left img {
+    margin: 71px 0 0 52px;
+    width: 380px;
+  }
+
+  .why_choose_us_right {
     margin-top: 29px;
     margin-left: 10px;
 
     .our-services-left-details {
-        margin-left: 1px;
+      margin-left: 1px;
     }
 
     h2 {
-        margin-left: -147px;
+      margin-left: -147px;
 
-        &::after {
-            margin-left: -64px;
-            width: 200px;
-        }
+      &::after {
+        margin-left: -64px;
+        width: 200px;
+      }
     }
 
-    .box {   
-        img {
-            padding: 18px 15px;
-            width: 80px;
-            
-        }
+    .box {
+      img {
+        padding: 18px 15px;
+        width: 80px;
+      }
     }
     .icon-details {
-        margin-top: 10px;  
+      margin-top: 10px;
     }
-}
+  }
 }
