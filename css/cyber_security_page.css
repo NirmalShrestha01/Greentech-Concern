@@ -1,0 +1,12 @@
+.cyber_security_page_section {
+  background-color: #9fa7b9;
+  width: 100%;
+  height: 1000px;
+}
+
+.cyber_security_page {
+  display: flex !important;
+  flex-basis: 50%;
+  margin-left: 100px;
+}
+/*# sourceMappingURL=cyber_security_page.css.map */

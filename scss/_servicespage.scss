@@ -77,7 +77,7 @@
 
     p {
       color: $text-color;
-      margin-top: 30px;
+      margin-top: 20px;
       text-align: justify;
     }
   }
@@ -111,7 +111,7 @@
 
 @media (max-width: 320px) {
   .service_description {
-    min-height: 1700px;
+    min-height: 1800px;
   }
   .service_description_datasecurity,
   .service_description_threatintelligence {
@@ -164,7 +164,7 @@
     min-height: 360px;
   }
   .service_description_threatintelligence {
-    min-height: 380px;
+    min-height: 530px;
   }
   .service_description_webdevlopment {
     min-height: 380px;
@@ -225,7 +225,7 @@
     min-height: 360px;
   }
   .service_description_threatintelligence {
-    min-height: 380px;
+    min-height: 500px;
   }
   .service_description_webdevlopment {
     min-height: 380px;
@@ -287,7 +287,7 @@
     min-height: 310px;
   }
   .service_description_threatintelligence {
-    min-height: 313px;
+    min-height: 450px;
   }
   .service_description_webdevlopment {
     min-height: 325px;
@@ -348,7 +348,7 @@
     min-height: 310px;
   }
   .service_description_threatintelligence {
-    min-height: 313px;
+    min-height: 380px;
   }
   .service_description_webdevlopment {
     min-height: 325px;
@@ -362,7 +362,7 @@
   .service_description_datasecurity,
   .service_description_threatintelligence {
     grid-template-columns: 2fr 1fr;
-    height: 190px !important;
+    height: 210px !important;
 
     .service_description_one_right img {
       max-width: 100%;

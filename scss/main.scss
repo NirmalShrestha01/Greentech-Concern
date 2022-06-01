@@ -40,7 +40,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #3a3845;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.8s ease-in-out;
   z-index: 10000;
 }
 
@@ -89,6 +89,10 @@ hr {
   border: none;
 }
 
+strong {
+  color: $primary-color;
+  font-size: 20px;
+}
 .title {
   text-align: center;
   margin: 50px 0;
@@ -145,7 +149,6 @@ button {
     color: $hover-color;
   }
 }
-
 @import "banner";
 @import "maximize";
 @import "ourServices";
@@ -157,7 +160,10 @@ button {
 @import "aboutpagebanner";
 @import "servicespage";
 @import "contactpage";
-
+@import "cyber_security_page";
+@import "it_consulting_page";
+@import "domain_hosting_page";
+@import "web_app_page";
 /*-------------------------------
 ------MEDIA QUERIES FOR <HR> TAG ONLY
 ---------------------------------*/

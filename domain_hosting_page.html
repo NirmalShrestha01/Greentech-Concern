@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon-two.png" type="image/png" />
+    <!--ICONSCOUT CDN LINKS-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-----ANIMATE CSS CDN LINK-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--OUR CSS-->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Greentech Concern- Home</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- BANNER ABOUT SECTION START-->
+      <section class="banner-about">
+        <div class="banner-about-container">
+          <div class="nav" id="nav_top">
+            <div class="logo">
+              <a href="index.html"
+                ><img
+                  src="images/new-logo-greentech.png"
+                  alt="logo-image"
+                  class="main_logo"
+              /></a>
+            </div>
+            <div class="nav_links" id="navLinks">
+              <div class="mobile_navbar_btn">
+                <ion-icon
+                  name="close-outline"
+                  class="mobile_nav_icon"
+                  onclick="hideMenu()"
+                ></ion-icon>
+              </div>
+              <ul class="nav_list" id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="mobile_navbar_btn">
+              <ion-icon
+                name="menu-outline"
+                class="mobile_nav_icon"
+                onclick="showMenu()"
+              ></ion-icon>
+            </div>
+          </div>
+
+          <div class="title">
+            <h2>Domain Name & Hosting</h2>
+          </div>
+        </div>
+      </section>
+      <!--BANNER ABOUT SECTION END-->
+
+      <!-- CYBER SECURITY DESCRIPTION SECTION START-->
+
+      <section class="domain_hosting_page_section">
+        <div class="domain_hosting_page container">
+          <div class="domain_hosting_page_left">
+            <p>
+              <strong>Domain Name and Hosting</strong>  platforms are 
+              indispensable and form the crux of every business. Every organization 
+              - be it of any size - needs the strongest online presence. People search
+              for your products and solutions by visiting your website. Web hosting
+               includes technologies and resources required to get your business online.
+                Having a good website hosting is essential so your brand can offer a quality service to the public.<br><br>
+                 We provide very attractive price for Domain Name Registration and Web Hosting 
+                 that can be suitable for any types of web site.
+            </p>
+          </div>
+          <div class="domain_hosting_page_right">
+            <img src="images/domain-image.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- CYBER SECURITY DESCRIPTION SECTION END-->
+
+      <!--CONTACT US SECTION START-->
+      <section class="contact">
+        <div class="container contact_container">
+          <div class="contact-left">
+            <div class="contact_heading">
+              <h3>Contact Us</h3>
+              <p>
+                We'd love to hear your comments,<br />
+                feedback and thoughts.
+              </p>
+            </div>
+            <div class="our-services-left-details">
+              <div class="box">
+                <img src="images/address-icon.png" alt="" />
+              </div>
+              <div class="icon-details">
+                <small
+                  ><a
+                    href="https://g.page/greentechconcern?share"
+                    target="_blank"
+                    >Manbhawan, Lalitpur, Nepal</a
+                  ></small
+                >
+              </div>
+            </div>
+            <div class="our-services-left-details">
+              <div class="box">
+                <img src="images/mobile-icon.png" alt="" />
+              </div>
+              <div class="icon-details">
+                <small><a href="tel:+9779851040042">+977 9851040042</a></small>
+              </div>
+            </div>
+            <div class="our-services-left-details">
+              <div class="box">
+                <img src="images/email-icon.png" alt="" />
+              </div>
+              <div class="icon-details">
+                <small
+                  ><a href="mailto:info@greentechconcern.com"
+                    >info@greentechconcern.com</a
+                  ></small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form action="form-handler.php" method="post" class="my-form">
+              <ul>
+                <li>
+                  <div class="form_box">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your name"
+                      required
+                    />
+                    <input
+                      type="tel"
+                      name="phonenumber"
+                      placeholder="Phone number"
+                      required
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div class="form_box">
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Your email"
+                      required
+                    />
+                    <input
+                      type="text"
+                      name="subject"
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+                </li>
+                <li>
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </li>
+                <button type="submit">
+                  <a href="index.html">SEND MESSAGE</a>
+                </button>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+      <!--CONTACT US SECTION END-->
+
+      <!--FOOTER SECTION START-->
+      <section class="footer">
+        <div class="container footer_container">
+          <div class="footer_links footer_row_one">
+            <a href="index.html" class="footer-logo"
+              ><img src="images/new-logo-greentech.png" alt="Greentechlogo"
+            /></a>
+            <p>
+              We are IT Solution and Security service provider <br />
+              company help to IT align with client business.
+            </p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.facebook.com/greentechconcern/"
+                  target="_blank"
+                  ><img
+                    src="images/facebook-logo-footer.png"
+                    alt="facebookLogo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/gtcnepal" target="_blank"
+                  ><img src="images/twitter-logo-footer.png" alt="twitterLogo"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/green-tech-concern"
+                  target="_blank"
+                  ><img
+                    src="images/linkedin-logo-footer.png"
+                    alt="linkedinLogo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_links footer_row_two">
+            <h5>CONTACT INFO</h5>
+            <div class="footer_address">
+              <img src="images/footer-address-icon.png" alt="addressIcon" />
+              <span
+                ><a href="https://g.page/greentechconcern?share" target="_blank"
+                  >Manbhawan, Lalitpur, Nepal</a
+                ></span
+              >
+            </div>
+            <div class="footer_contact">
+              <img src="images/footer-phone-icon.png" alt="phoneIcon" />
+              <span><a href="tel:+9779851040042">+977 9851040042</a></span>
+            </div>
+            <div class="footer_mail">
+              <img src="images/footer-mail-icon.png" alt="mailICon" />
+              <span
+                ><a href="mailto:info@greentechconcern.com"
+                  >info@greentechconcern.com</a
+                ></span
+              >
+            </div>
+            <div class="footer_time">
+              <img src="images/footer-time-icon.png" alt="timeIcon" />
+              <span>Sunday - Friday / 9AM - 6PM</span>
+            </div>
+          </div>
+          <div class="footer_links footer_row_three">
+            <h5>OUR SERVICES</h5>
+            <p><a href="cybersecurity_page.html">Cyber Security</a> </p>
+            <p><a href="it_consulting_page.html">IT Consulting</a> </p>
+            <p><a href="domain_hosting_page.html">Domain Name & Hosting</a> </p>
+            <p><a href="web_app_page.html">Web & App Development</a> </p>
+        </div>
+          <div class="footer_links footer_row_four">
+            <h5>QUICK LINKS</h5>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="about.html">About</a></p>
+            <p><a href="service.html">Services</a></p>
+            <p><a href="contact.html">Contact</a></p>
+          </div>
+        </div>
+      </section>
+      <!--FOOTER SECTION END-->
+
+      <hr />
+
+      <!--COPYRIGHT SECTION START-->
+      <section class="copyright">
+        <p>©2022 Green Tech Concern Pvt. Ltd. All Rights Reserved</p>
+        <div class="scroll_to_top">
+          <a href="#">
+            <ion-icon name="arrow-up-outline"></ion-icon>
+          </a>
+        </div>
+      </section>
+      <!--COPYRIGHT SECTION END-->
+    </div>
+
+    <!--Iconsio CDN LINK-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!--ANIMATE CSS JS LINK-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="main.js"></script>
+  </body>
+</html>

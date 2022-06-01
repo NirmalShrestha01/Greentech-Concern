@@ -33,7 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #3a3845;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.8s ease-in-out;
   z-index: 10000;
 }
 
@@ -78,6 +78,11 @@ hr {
   margin: auto;
   outline: none;
   border: none;
+}
+
+strong {
+  color: #019267;
+  font-size: 20px;
 }
 
 .title {
@@ -1279,13 +1284,13 @@ button a {
   background: url(../images/partner-section-background.png);
   background-color: #fff;
   width: 100%;
-  height: 200px;
+  height: 320px;
   margin-top: 50px;
 }
 
 .partner_container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   align-items: center;
   height: 200px;
@@ -1293,6 +1298,7 @@ button a {
 
 .partner_container img {
   width: 150px;
+  margin-top: 10px;
 }
 
 .partner_container img:hover {
@@ -1301,7 +1307,7 @@ button a {
 
 @media (max-width: 320px) {
   .partner {
-    height: 230px;
+    height: 325px;
     margin-top: 50px;
   }
   .partner .partner_container {
@@ -1319,7 +1325,7 @@ button a {
 -------------------------------------------------*/
 @media (min-width: 321px) and (max-width: 430px) {
   .partner {
-    height: 265px;
+    height: 480px;
     margin-top: 50px;
   }
   .partner .partner_container {
@@ -1351,7 +1357,7 @@ button a {
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .partner {
-    height: 230px;
+    height: 280px;
     margin-top: 50px;
   }
   .partner .partner_container {
@@ -2221,7 +2227,7 @@ button a {
 
 .service_description_threatintelligence .service_description_one_left p {
   color: #00132c;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: justify;
 }
 
@@ -2252,7 +2258,7 @@ button a {
 ---------------------------------------------------------------*/
 @media (max-width: 320px) {
   .service_description {
-    min-height: 1700px;
+    min-height: 1800px;
   }
   .service_description_datasecurity,
   .service_description_threatintelligence {
@@ -2306,7 +2312,7 @@ button a {
     min-height: 360px;
   }
   .service_description_threatintelligence {
-    min-height: 380px;
+    min-height: 530px;
   }
   .service_description_webdevlopment {
     min-height: 380px;
@@ -2369,7 +2375,7 @@ button a {
     min-height: 360px;
   }
   .service_description_threatintelligence {
-    min-height: 380px;
+    min-height: 500px;
   }
   .service_description_webdevlopment {
     min-height: 380px;
@@ -2432,7 +2438,7 @@ button a {
     min-height: 310px;
   }
   .service_description_threatintelligence {
-    min-height: 313px;
+    min-height: 450px;
   }
   .service_description_webdevlopment {
     min-height: 325px;
@@ -2495,7 +2501,7 @@ button a {
     min-height: 310px;
   }
   .service_description_threatintelligence {
-    min-height: 313px;
+    min-height: 380px;
   }
   .service_description_webdevlopment {
     min-height: 325px;
@@ -2509,7 +2515,7 @@ button a {
   .service_description_datasecurity,
   .service_description_threatintelligence {
     grid-template-columns: 2fr 1fr;
-    height: 190px !important;
+    height: 210px !important;
   }
   .service_description_datasecurity .service_description_one_right img,
   .service_description_threatintelligence .service_description_one_right img {
@@ -2716,6 +2722,274 @@ button a {
   }
   .contact_description_container .contact_box p {
     font-size: 12px;
+  }
+}
+
+.cyber_security_page_section {
+  background-color: #9fa7b9;
+  width: 100%;
+  padding: 80px 0px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.cyber_security_page_section .cyber_security_page {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.cyber_security_page_section .cyber_security_page p {
+  color: #00132c;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  -webkit-box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  -moz-box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  padding: 12px;
+}
+
+.cyber_security_page_section .cyber_security_page img {
+  border-radius: 5px;
+  box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+}
+
+@media (max-width: 430px) {
+  .cyber_security_page_section .cyber_security_page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 50px;
+  }
+  .cyber_security_page_section .cyber_security_page p {
+    font-size: 18px;
+    width: 330px;
+  }
+  .cyber_security_page_section .cyber_security_page img {
+    width: 330px;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 800px) {
+  .cyber_security_page_section .cyber_security_page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 50px;
+  }
+  .cyber_security_page_section .cyber_security_page p {
+    font-size: 18px;
+    width: 700px;
+  }
+  .cyber_security_page_section .cyber_security_page img {
+    width: 100%;
+  }
+}
+
+.it_consulting_page_section {
+  background-color: #9fa7b9;
+  width: 100%;
+  padding: 80px 0px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.it_consulting_page_section .it_consulting_page {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.it_consulting_page_section .it_consulting_page p {
+  color: #00132c;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  -webkit-box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  -moz-box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  padding: 12px;
+}
+
+.it_consulting_page_section .it_consulting_page img {
+  border-radius: 5px;
+  box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+}
+
+@media (max-width: 430px) {
+  .it_consulting_page_section .it_consulting_page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 50px;
+  }
+  .it_consulting_page_section .it_consulting_page p {
+    font-size: 18px;
+    width: 330px;
+  }
+  .it_consulting_page_section .it_consulting_page img {
+    width: 330px;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 800px) {
+  .it_consulting_page_section .it_consulting_page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 50px;
+  }
+  .it_consulting_page_section .it_consulting_page p {
+    font-size: 18px;
+    width: 700px;
+  }
+  .it_consulting_page_section .it_consulting_page img {
+    width: 100%;
+  }
+}
+
+.domain_hosting_page_section {
+  background-color: #9fa7b9;
+  width: 100%;
+  padding: 80px 0px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.domain_hosting_page_section .domain_hosting_page {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.domain_hosting_page_section .domain_hosting_page p {
+  color: #00132c;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  -webkit-box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  -moz-box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  padding: 12px;
+}
+
+.domain_hosting_page_section .domain_hosting_page img {
+  border-radius: 5px;
+  box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+}
+
+@media (max-width: 430px) {
+  .domain_hosting_page_section .domain_hosting_page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 50px;
+  }
+  .domain_hosting_page_section .domain_hosting_page p {
+    font-size: 18px;
+    width: 330px;
+  }
+  .domain_hosting_page_section .domain_hosting_page img {
+    width: 330px;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 800px) {
+  .domain_hosting_page_section .domain_hosting_page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 50px;
+  }
+  .domain_hosting_page_section .domain_hosting_page p {
+    font-size: 18px;
+    width: 700px;
+  }
+  .domain_hosting_page_section .domain_hosting_page img {
+    width: 100%;
+  }
+}
+
+.web_app_page_section {
+  background-color: #9fa7b9;
+  width: 100%;
+  padding: 80px 0px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.web_app_page_section .web_app_page {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.web_app_page_section .web_app_page p {
+  color: #00132c;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  -webkit-box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  -moz-box-shadow: 0px 0px 23px 7px rgba(204, 204, 204, 0.54);
+  padding: 12px;
+}
+
+.web_app_page_section .web_app_page img {
+  border-radius: 5px;
+  box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 10px -10px 0px -3px rgba(0, 0, 0, 0.69);
+}
+
+@media (max-width: 430px) {
+  .web_app_page_section .web_app_page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 50px;
+  }
+  .web_app_page_section .web_app_page p {
+    font-size: 18px;
+    width: 330px;
+  }
+  .web_app_page_section .web_app_page img {
+    width: 330px;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 800px) {
+  .web_app_page_section .web_app_page {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 50px;
+  }
+  .web_app_page_section .web_app_page p {
+    font-size: 18px;
+    width: 700px;
+  }
+  .web_app_page_section .web_app_page img {
+    width: 100%;
   }
 }
 
